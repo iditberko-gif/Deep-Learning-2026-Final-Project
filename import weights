@@ -1,0 +1,16 @@
+import gdown
+import os
+
+FOLDER_ID = "1iiOJKA4TuErGHJQvgT45jy-XxSh3WAhl"
+
+OUTPUT_DIR = "data"
+
+if __name__ == "__main__":
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    url = f"https://drive.google.com/drive/folders/{FOLDER_ID}"
+
+    print("Downloading folder from Google Drive...")
+    gdown.download_folder(url, output=OUTPUT_DIR, quiet=False)
+
+    print("Done.")
