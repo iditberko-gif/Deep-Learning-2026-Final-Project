@@ -17,10 +17,10 @@ pip install YoDe-Segmentation-v2==1.0.1
 
 ### Step 2: Weight configuration
 Download model weights:
-- Deeplabv3: https://drive.google.com/file/d/FILE_ID/view?usp=sharing  
-- YOLOv5: https://drive.google.com/file/d/FILE_ID/view?usp=sharing
+- Deeplabv3: https://drive.google.com/file/d/1Sjt8McPdv7cISn-EQbU-Tbd6F5OZ45vL/view?usp=drive_link
+- YOLOv5: https://drive.google.com/file/d/1zxmlosjjdy8c-i7K7GmaNizGiTsBjmXW/view?usp=drive_link
 -  
-Put the [weight of the new Deeplabv3 model](https://content/drive/MyDrive/IEM_2026/weights/model_82.pth) and [the weight of YOLOV5 model](https://content/drive/MyDrive/IEM_2026/weights/best.pt) in the [weights](https://github.com/OneChorm/YoDe-Segmentation/tree/master/weights) folder
+Put them in the Weights folder.
 
 ### Step 3: Where should you put the images you want to predict
 If you need to work with pdf files, you should put the files in the [test_pdf](https://github.com/OneChorm/YoDe-Segmentation/blob/master/test_pdf) folder,and then convert pdf files to images. If you run into an error with the pdf conversion, you could run the pdf2img.py in a python compiler.
