@@ -31,12 +31,10 @@ Download model weights:
 Put them in the Weights folder.
 
 ### Step 3: Datasets
-If you need to work with pdf files, you should put the files in the test_pdf folder,and then convert pdf files to images. If you run into an error with the pdf conversion, you could run the pdf2img.py in a python compiler.
+Upload the articles to test_pdf folder to convert pdf files to images and run pdf2img.py script.
 
-run the pdf2img.py
+You can also choose to run pdf2img.py in a python compiler.
 
-python pdf2img.py
-if need to work with images, you should only put the images in the test_img folder
 
 ### Step 4: Predict
 run the predict_molecular.py
