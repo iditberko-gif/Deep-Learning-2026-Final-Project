@@ -38,8 +38,5 @@ You can also choose to run pdf2img.py in a python compiler.
 
 ### Step 4: Predict
 run the predict_molecular.py
-```bash
-python predict_molecular.py
-```
 
 
