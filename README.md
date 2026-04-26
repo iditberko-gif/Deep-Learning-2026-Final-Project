@@ -5,15 +5,22 @@ Script to create a synthetic dataset: SMILES_to_IMGs_and_MASKs.py
 
 ## Usage
 ### Step 1: Environ building
-```bash
-git clone https://github.com/OneChorm/YoDe-Segmentation
-conda create -n YoDe_Seg python==3.10.11
-conda activate YoDe_Seg
-pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
-cd "your dir to `YoDe-Segmentation`" # change directory
+# 1. Clone repo
+git clone https://github.com/OneChorm/YoDe-Segmentation.git
+cd YoDe-Segmentation
+
+# 2. Create clean environment
+conda create -n yode_seg python=3.9 -y
+conda activate yode_seg
+
+# 3. Install PyTorch (CUDA 11.8 stable version)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# 4. Install project dependencies
 pip install -r requirements.txt
-pip install YoDe-Segmentation-v2==1.0.1
-```
+
+# 5. Install repo as editable package (safe replacement)
+pip install -e .
 
 ### Step 2: Weight configuration
 Download model weights:
