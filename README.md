@@ -25,8 +25,8 @@ pip install -e .
 
 ### Step 2: Weight configuration
 Download model weights:
-- Deeplabv3: https://drive.google.com/file/d/1Sjt8McPdv7cISn-EQbU-Tbd6F5OZ45vL/view?usp=drive_link
-- YOLOv5: https://drive.google.com/file/d/1zxmlosjjdy8c-i7K7GmaNizGiTsBjmXW/view?usp=drive_link 
+- Deeplabv3: Direct Download Link: https://drive.google.com/uc?id=1Sjt8McPdv7cISn-EQbU-Tbd6F5OZ45vL
+- YOLOv5: Direct Download Link: https://drive.google.com/uc?id=1zxmlosjjdy8c-i7K7GmaNizGiTsBjmXW
 Put them in the Weights folder.
 
 ### Step 3: 
