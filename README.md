@@ -5,6 +5,7 @@ Script to create a synthetic dataset: SMILES_to_IMGs_and_MASKs.py
 
 ## Usage
 ### Step 1: Environ building
+Copy this into terminal / Anaconda Prompt:
 1. Clone repo
 git clone https://github.com/OneChorm/YoDe-Segmentation.git
 cd YoDe-Segmentation
