@@ -27,13 +27,13 @@ Download model weights:
 
 Put them in the Weights folder.
 
-### Step 3: Datasets
+### Step 3: Data Preprocessing
 Upload the articles to test_pdf folder to convert pdf files to images and run pdf2img.py script.
 
 You can also choose to run pdf2img.py in a python compiler.
 
 
-### Step 4: Predict
+### Step 4: Inference and Prediction
 run the predict_molecular_fix.py
 
 
