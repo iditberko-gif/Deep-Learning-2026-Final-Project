@@ -28,12 +28,21 @@ Download model weights:
 Put them in the Weights folder.
 
 ### Step 3: Data Preprocessing
-Upload the articles to test_pdf folder to convert pdf files to images and run pdf2img.py script.
-
-You can also choose to run pdf2img.py in a python compiler.
+Place the input PDF articles inside the test_pdf directory.
+These files will be converted into images for further processing.
+To perform the conversion, run:
+python pdf2img.py
 
 
 ### Step 4: Inference and Prediction
-run the predict_molecular_fix.py
+After generating the images, run the inference pipeline:
+python predict_molecular_fix.py
 
+### NOTES
+Ensure that the following directories exist before running:
+test_pdf/ – contains input PDF files
+test_img/ – will contain generated images
+Make sure the required model weights are placed in the weights/ directory:
+best.pt (YOLOv5)
+model82.pth (DeepLabv3)
 
