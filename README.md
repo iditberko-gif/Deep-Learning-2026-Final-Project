@@ -5,18 +5,20 @@ Script to create a synthetic dataset: SMILES_to_IMGs_and_MASKs.py
 
 ## Usage
 ### Step 1: Environ building
-Copy this into terminal / Anaconda Prompt:
+git clone https://github.com/iditberko-gif/Deep-Learning-2026-Final-Project.git
 
-git clone https://github.com/OneChorm/YoDe-Segmentation.git
-cd YoDe-Segmentation
+conda create -n YoDe_Seg python==3.10.11 -y
+conda activate YoDe_Seg
 
-conda create -n yode_seg python=3.9 -y
-conda activate yode_seg
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 
-pip install torch torchvision torchaudio
+cd Deep-Learning-2026-Final-Project
 
 pip install -r requirements.txt
-pip install -e .
+pip install YoDe-Segmentation-v2==1.0.1
+pip install setuptools==65.5.0
+pip install matplotlib==3.7.1 seaborn==0.12.2
+pip install PyPDF2==3.0.1
 
 ### Step 2: Weight configuration
 Download model weights:
